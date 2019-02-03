@@ -60,7 +60,7 @@ func DeletePerson(w http.ResponseWriter, r *http.Request) {
     }
 }
 
-// main function to boot up everything
+// main function to boot up everything MM
 func main() {
     router := mux.NewRouter()
     people = append(people, Person{ID: "1", Firstname: "John", Lastname: "Doe", Address: &Address{City: "City X", State: "State X"}})
